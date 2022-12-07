@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Regression test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Orange HRM Test(failed)">
+    <classes>
+      <class name="myTest.OrangeHRMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="contactSalesLinkTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- myTest.OrangeHRMTest -->
+    </classes>
+  </test> <!-- Orange HRM Test(failed) -->
+</suite> <!-- Failed suite [TestNG Regression test] -->
