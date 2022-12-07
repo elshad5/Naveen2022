@@ -21,6 +21,8 @@ static WebDriver driver;
 		email.sendKeys("shah@gmail.com");
 		//StaleElementException
 		//StaleElementReferenceException
+		
+		//testig GIT
 	}
 
 }
